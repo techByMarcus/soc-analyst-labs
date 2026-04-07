@@ -75,4 +75,38 @@ Login activity was detected outside of normal operating hours. The objective was
 - Incident triage  
 
 ---
+## 🔍 Lab 3: Phishing Email Investigation
 
+### 🎯 Objective
+Analyze a suspicious email to determine whether it is a phishing attempt.
+
+### 🛠 Tools Used
+- Email header analysis
+- URL inspection
+- Basic threat analysis techniques
+
+### 🧪 Scenario
+A user reported receiving an email requesting urgent account verification. The message included a link and appeared to come from a trusted source.
+
+### 🔎 Investigation Steps
+- Reviewed sender email address for spoofing indicators  
+- Analyzed email content for urgency and social engineering tactics  
+- Inspected embedded links for suspicious or mismatched domains  
+- Checked for unusual formatting, spelling, or grammar issues  
+
+### 🚨 Findings
+- Sender address was suspicious and did not match legitimate domain  
+- Email contained urgent language designed to pressure the user  
+- Link redirected to a non-legitimate website  
+
+### 🛡 Response / Mitigation
+- Advised user not to click the link  
+- Reported email as phishing  
+- Recommended security awareness training  
+- Suggested implementing email filtering rules  
+
+### 📌 Skills Demonstrated
+- Phishing detection  
+- Email analysis  
+- Threat identification  
+- Incident response  
